@@ -1,0 +1,1 @@
+=IF(ISERROR(MATCH(M2,'Cost Codes'!A:A, 0)), M2&" Cost code not found", VLOOKUP(M2,'Cost Codes'!A:C,3,FALSE))
